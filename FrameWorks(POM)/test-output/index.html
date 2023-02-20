@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\hp\eclipse-workspace\FrameWorks(POM)\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 2 failed,  1 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_Login_Test" class="method navigator-link" hash-for-method="BankLogin(mngr476338, nyhymUd)">BankLogin(mngr476338, nyhymUd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99Edit_Customer_Details" class="method navigator-link" hash-for-method="CustomerID_Edit(32394)">CustomerID_Edit(32394)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_Login_Test" class="method navigator-link" hash-for-method="Verify_UserLogin">Verify_UserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_Login_Test" class="method navigator-link" hash-for-method="BankLogin(student, Password123)">BankLogin(student, Password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99Edit_Customer_Details" class="method navigator-link" hash-for-method="CustomerID_Edit(7874)">CustomerID_Edit(7874)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99Edit_Customer_Details" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99Edit_Customer_Details" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99Edit_Customer_Details" class="method navigator-link" hash-for-method="Open">Open</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99Edit_Customer_Details" class="method navigator-link" hash-for-method="Open">Open</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_Login_Test" class="method navigator-link" hash-for-method="Select_Browser_Name(Firefox)">Select_Browser_Name(Firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_Login_Test" class="method navigator-link" hash-for-method="Select_Browser_Name(Firefox)">Select_Browser_Name(Firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_addCustomer" class="method navigator-link" hash-for-method="Select_Browser_Name">Select_Browser_Name</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_addCustomer" class="method navigator-link" hash-for-method="ValidCredentials(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)">ValidCredentials(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_Login_Test" class="method navigator-link" hash-for-method="Verify_UserLogin(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)">Verify_UserLogin(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru_99.Runner.com.Guru99_addCustomer" class="method navigator-link" hash-for-method="addCustomer_test">addCustomer_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Guru_99.Runner.com.Guru99Edit_Customer_Details</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CustomerID_Edit(32394)">
+                  </a> <!-- CustomerID_Edit(32394) -->
+                  <span class="method-name">CustomerID_Edit</span>
+                  <span class="parameters">(32394)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;cusid&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-P39CJOI&apos;, ip: &apos;10.5.48.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [aeec21db-373b-4b48-8b3e-cb3353399262, findElement {using=xpath, value=//input[@name=&apos;cusid&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:debuggerAddress: 127.0.0.1:51121, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12356, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:51121/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aeec21db-373b-4b48-8b3e-cb3353399262
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at Page_Object_Model.guru99Edit_Customer.editCustomerField(guru99Edit_Customer.java:19)
+	at Guru_99.Runner.com.Guru99Edit_Customer_Details.CustomerID_Edit(Guru99Edit_Customer_Details.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Guru_99.Runner.com.Guru99_Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BankLogin(mngr476338, nyhymUd)">
+                  </a> <!-- BankLogin(mngr476338, nyhymUd) -->
+                  <span class="method-name">BankLogin</span>
+                  <span class="parameters">(mngr476338, nyhymUd)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-P39CJOI&apos;, ip: &apos;10.5.48.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f6d7ed91-2981-4778-a7ec-3d24a1fb743d, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:debuggerAddress: 127.0.0.1:54417, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5224, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:54417/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6d7ed91-2981-4778-a7ec-3d24a1fb743d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1110)
+	at Guru_99.Runner.com.Guru99_Login_Test.BankLogin(Guru99_Login_Test.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Guru_99.Runner.com.Guru99_Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_UserLogin">
+                  </a> <!-- Verify_UserLogin -->
+                  <span class="method-name">Verify_UserLogin</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Guru99_Login_Test.Verify_UserLogin(java.lang.String,java.lang.String)[pri:0, instance:Guru_99.Runner.com.Guru99_Login_Test@579d011c] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Guru_99.Runner.com.Guru99Edit_Customer_Details</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CustomerID_Edit(7874)">
+                  </a> <!-- CustomerID_Edit(7874) -->
+                  <span class="method-name">CustomerID_Edit</span>
+                  <span class="parameters">(7874)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Open">
+                  </a> <!-- Open -->
+                  <span class="method-name">Open</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Open">
+                  </a> <!-- Open -->
+                  <span class="method-name">Open</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Guru_99.Runner.com.Guru99_addCustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_Browser_Name">
+                  </a> <!-- Select_Browser_Name -->
+                  <span class="method-name">Select_Browser_Name</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidCredentials(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)">
+                  </a> <!-- ValidCredentials(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php) -->
+                  <span class="method-name">ValidCredentials</span>
+                  <span class="parameters">(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomer_test">
+                  </a> <!-- addCustomer_test -->
+                  <span class="method-name">addCustomer_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Guru_99.Runner.com.Guru99_Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BankLogin(student, Password123)">
+                  </a> <!-- BankLogin(student, Password123) -->
+                  <span class="method-name">BankLogin</span>
+                  <span class="parameters">(student, Password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_Browser_Name(Firefox)">
+                  </a> <!-- Select_Browser_Name(Firefox) -->
+                  <span class="method-name">Select_Browser_Name</span>
+                  <span class="parameters">(Firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_Browser_Name(Firefox)">
+                  </a> <!-- Select_Browser_Name(Firefox) -->
+                  <span class="method-name">Select_Browser_Name</span>
+                  <span class="parameters">(Firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_UserLogin(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)">
+                  </a> <!-- Verify_UserLogin(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php) -->
+                  <span class="method-name">Verify_UserLogin</span>
+                  <span class="parameters">(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hp\eclipse-workspace\FrameWorks(POM)\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestIng_invalidLogin_Functionality&quot;&gt;
+    &lt;parameter name=&quot;Select_Browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;URL2&quot; value=&quot;https://demo.guru99.com/V4/manager/Managerhomepage.php&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Password123&quot;/&gt;
+    &lt;parameter name=&quot;URL1&quot; value=&quot;https://demo.guru99.com/V4/&quot;/&gt;
+    &lt;parameter name=&quot;user&quot; value=&quot;student&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Guru_99.Runner.com.Guru99_Login_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestIng_invalidLogin_Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestIng_validLogin_Functionality&quot;&gt;
+    &lt;parameter name=&quot;Select_Browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;URL2&quot; value=&quot;https://demo.guru99.com/V4/manager/Managerhomepage.php&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;nyhymUd&quot;/&gt;
+    &lt;parameter name=&quot;URL1&quot; value=&quot;https://demo.guru99.com/V4/&quot;/&gt;
+    &lt;parameter name=&quot;user&quot; value=&quot;mngr476338&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Guru_99.Runner.com.Guru99_Login_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestIng_validLogin_Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add_Customer_testing&quot;&gt;
+    &lt;parameter name=&quot;URL2&quot; value=&quot;https://demo.guru99.com/V4/manager/Managerhomepage.php&quot;/&gt;
+    &lt;parameter name=&quot;URL1&quot; value=&quot;https://demo.guru99.com/V4/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Guru_99.Runner.com.Guru99_addCustomer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add_Customer_testing --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Editwith_invalid_Customer_ID&quot;&gt;
+    &lt;parameter name=&quot;customerID&quot; value=&quot;7874&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Guru_99.Runner.com.Guru99Edit_Customer_Details&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Editwith_invalid_Customer_ID --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Editwith_valid_Customer_ID&quot;&gt;
+    &lt;parameter name=&quot;customerID&quot; value=&quot;32394&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Guru_99.Runner.com.Guru99Edit_Customer_Details&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Editwith_valid_Customer_ID --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestIng_invalidLogin_Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestIng_validLogin_Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add_Customer_testing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Editwith_invalid_Customer_ID (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Editwith_valid_Customer_ID (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Open')
+data.setCell(0, 2, 'Guru_99.Runner.com.Guru99Edit_Customer_Details')
+data.setCell(0, 3, 28490);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Open')
+data.setCell(1, 2, 'Guru_99.Runner.com.Guru99Edit_Customer_Details')
+data.setCell(1, 3, 18178);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Select_Browser_Name')
+data.setCell(2, 2, 'Guru_99.Runner.com.Guru99_Login_Test')
+data.setCell(2, 3, 17406);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Select_Browser_Name')
+data.setCell(3, 2, 'Guru_99.Runner.com.Guru99_addCustomer')
+data.setCell(3, 3, 15012);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Select_Browser_Name')
+data.setCell(4, 2, 'Guru_99.Runner.com.Guru99_Login_Test')
+data.setCell(4, 3, 13147);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CustomerID_Edit')
+data.setCell(5, 2, 'Guru_99.Runner.com.Guru99Edit_Customer_Details')
+data.setCell(5, 3, 8831);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addCustomer_test')
+data.setCell(6, 2, 'Guru_99.Runner.com.Guru99_addCustomer')
+data.setCell(6, 3, 6872);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Login')
+data.setCell(7, 2, 'Guru_99.Runner.com.Guru99Edit_Customer_Details')
+data.setCell(7, 3, 5846);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'BankLogin')
+data.setCell(8, 2, 'Guru_99.Runner.com.Guru99_Login_Test')
+data.setCell(8, 3, 3958);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Login')
+data.setCell(9, 2, 'Guru_99.Runner.com.Guru99Edit_Customer_Details')
+data.setCell(9, 3, 3950);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'BankLogin')
+data.setCell(10, 2, 'Guru_99.Runner.com.Guru99_Login_Test')
+data.setCell(10, 3, 3413);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ValidCredentials')
+data.setCell(11, 2, 'Guru_99.Runner.com.Guru99_addCustomer')
+data.setCell(11, 3, 2109);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CustomerID_Edit')
+data.setCell(12, 2, 'Guru_99.Runner.com.Guru99Edit_Customer_Details')
+data.setCell(12, 3, 699);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Verify_UserLogin')
+data.setCell(13, 2, 'Guru_99.Runner.com.Guru99_Login_Test')
+data.setCell(13, 3, 13);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Verify_UserLogin')
+data.setCell(14, 2, 'Guru_99.Runner.com.Guru99_Login_Test')
+data.setCell(14, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Guru_99.Runner.com.Guru99_Login_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Select_Browser_Name(Firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BankLogin(student, Password123)</span>
+                <span class="method-start">17430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_UserLogin(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)</span>
+                <span class="method-start">21401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Select_Browser_Name(Firefox)</span>
+                <span class="method-start">21622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BankLogin(mngr476338, nyhymUd)</span>
+                <span class="method-start">34780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_UserLogin</span>
+                <span class="method-start">38286 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Guru_99.Runner.com.Guru99_addCustomer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Select_Browser_Name</span>
+                <span class="method-start">38563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidCredentials(https://demo.guru99.com/V4/, https://demo.guru99.com/V4/manager/Managerhomepage.php)</span>
+                <span class="method-start">53595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCustomer_test</span>
+                <span class="method-start">55712 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Guru_99.Runner.com.Guru99Edit_Customer_Details</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Open</span>
+                <span class="method-start">62665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">80928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CustomerID_Edit(7874)</span>
+                <span class="method-start">86798 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Open</span>
+                <span class="method-start">95703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">124307 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CustomerID_Edit(32394)</span>
+                <span class="method-start">128269 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

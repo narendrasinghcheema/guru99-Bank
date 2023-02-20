@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test thread-count="5" name="TestIng_invalidLogin_Functionality">
+
+    <parameter name="Select_Browser" value="Firefox"/>
+    <parameter name="user" value="student"/>
+    <parameter name="pass" value="Password123"/>
+    <parameter name="URL1" value="https://demo.guru99.com/V4/"/>
+    <parameter name="URL2" value="https://demo.guru99.com/V4/manager/Managerhomepage.php"/>
+     
+      
+      <classes>
+        <class name="Guru_99.Runner.com.Guru99_Login_Test"/>
+      </classes>
+
+     </test> 
+
+   <test thread-count="5" name="TestIng_validLogin_Functionality">
+
+    <parameter name="Select_Browser" value="Firefox"/>
+    <parameter name="user" value="mngr476338"/>
+    <parameter name="pass" value="nyhymUd"/>
+    <parameter name="URL1" value="https://demo.guru99.com/V4/"/>
+    <parameter name="URL2" value="https://demo.guru99.com/V4/manager/Managerhomepage.php"/>
+     
+      
+      <classes>
+        <class name="Guru_99.Runner.com.Guru99_Login_Test"/>
+      </classes>
+
+     </test>
+
+<test thread-count="5" name="Add_Customer_testing">
+
+     <parameter name="URL1" value="https://demo.guru99.com/V4/"/>
+    <parameter name="URL2" value="https://demo.guru99.com/V4/manager/Managerhomepage.php"/>
+     
+      
+      <classes>
+        <class name="Guru_99.Runner.com.Guru99_addCustomer"/>
+      </classes>
+
+     </test> 
+
+<test thread-count="5" name="Editwith_invalid_Customer_ID">
+
+   
+     <parameter name="customerID" value="7874"/>
+      
+      <classes>
+        <class name="Guru_99.Runner.com.Guru99Edit_Customer_Details"/>
+      </classes>
+
+     </test> 
+
+<test thread-count="5" name="Editwith_valid_Customer_ID">
+
+    
+     <parameter name="customerID" value="32394"/>
+      
+      <classes>
+        <class name="Guru_99.Runner.com.Guru99Edit_Customer_Details"/>
+      </classes>
+
+     </test> 
+
+
+
+
+    </suite>
