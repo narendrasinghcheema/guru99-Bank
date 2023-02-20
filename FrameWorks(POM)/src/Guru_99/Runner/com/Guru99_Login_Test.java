@@ -25,7 +25,7 @@ public class Guru99_Login_Test {
 	{
 		if(Select_Browser.equals("Chrome"))
 		{
-			driver = new ChromeDriver();
+			driver = new FirefoxDriver();
 		}
 		else if(Select_Browser.equals("Firefox"))
 		{
